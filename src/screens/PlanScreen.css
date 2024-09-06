@@ -21,3 +21,11 @@
     background-color: gray !important;
     width: 28% !important;
 }
+
+@media (max-width:900px) {
+    .planScreen_plan > button {
+        min-width: 35%;
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+}

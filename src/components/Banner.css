@@ -52,3 +52,23 @@
         #111
     );
 }
+
+
+
+@media (max-width: 480px) {
+    .banner_contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .banner_title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .banner_description {
+        width: 90%;
+        max-width: 90%;
+    }
+}

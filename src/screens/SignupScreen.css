@@ -49,3 +49,11 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+@media (max-width: 480px) {
+    .signupScreen {
+        max-width: 250px;
+        top: 0px;
+    }
+}

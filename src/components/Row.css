@@ -30,3 +30,15 @@
     transform: scale(1.09);
     opacity: 1;
 }
+
+@media (max-width: 480px) {
+    .row > h2 {
+        text-align: center;
+    }
+    .row_posterLarge {
+        min-height: 200px;
+    }
+    .row_poster {
+        max-height: 80px;
+    }
+}

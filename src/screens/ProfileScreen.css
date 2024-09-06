@@ -52,3 +52,58 @@
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
 }
+
+/* Responsiveness */
+
+@media (max-width: 600px) {
+    .profileScreen {
+        display: flex;
+        align-items: center;
+    }
+    .profileScreen_body {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 90%;
+        padding: 15% 20px;
+    }
+    .profileScreen_body > h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .profileScreen_info > img {
+        height: 80px;
+    }
+    .profileScreen_details > h2 {
+        padding: 10px;
+    }
+    .profileScreen_plans {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:601px) and (max-width:900px) {
+    .profileScreen_body {
+        width: 75%;
+        padding: 12.5% 20px;
+    }
+    .profileScreen_body > h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    .profileScreen_info > img {
+        height: 90px;
+    }
+    .profileScreen_details > h2 {
+        padding: 15px;
+    }
+    .profileScreen_plans {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:901px) {
+    .profileScreen_body {
+        width: 60%;
+    }
+}

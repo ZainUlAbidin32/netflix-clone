@@ -83,3 +83,18 @@
     cursor: pointer;
     border: none;
 }
+
+@media (max-width: 480px) {
+    .loginScreen_body {
+        top: 25%;
+    }
+    .loginScreen_body > h1 {
+        font-size: 2.5rem;
+    }
+    .loginScreen_body > h2 {
+        font-size: 1.5rem;
+    }
+    .loginScreen_body > h3 {
+        font-size: 1.1rem;
+    }
+}
